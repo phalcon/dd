@@ -28,7 +28,7 @@ if (!function_exists('dd')) {
     function dd()
     {
         array_map(function ($x) {
-            echo (new Dump)->variable($x);
+            echo (new Dump(null, true))->variable($x);
         }, func_get_args());
 
         die(1);
