@@ -28,7 +28,9 @@ if (!function_exists('dd')) {
     function dd()
     {
         array_map(function ($x) {
-            echo (new Dump(null, true))->variable($x);
+            $string = (new Dump(null, true))->variable($x);
+
+            echo (PHP_SAPI == 'cli' ? strip_tags($string) : $string);
         }, func_get_args());
 
         die(1);
