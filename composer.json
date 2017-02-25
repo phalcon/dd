@@ -6,7 +6,8 @@
         "dd",
         "phalcon",
         "utils",
-        "dump"
+        "dump",
+        "vardumper"
     ],
     "homepage": "https://github.com/phalcongelist/dd",
     "license": "BSD-3-Clause",
@@ -32,6 +33,8 @@
         "forum":  "https://forum.phalconphp.com/"
     },
     "autoload": {
-        "files": ["src/helper.php"]
+        "files": [
+            "src/helper.php"
+        ]
     }
 }
