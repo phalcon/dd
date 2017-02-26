@@ -27,6 +27,7 @@ if (!function_exists('dd')) {
      */
     function dd()
     {
+        debugCaller();
         array_map(function ($x) {
             $string = (new Dump(null, true))->variable($x);
 
@@ -34,5 +35,19 @@ if (!function_exists('dd')) {
         }, func_get_args());
 
         die(1);
+    }
+}
+
+if (!function_exists('debugCaller')) {
+    function debugCaller()
+    {
+        $trace = debug_backtrace();
+
+        echo sprintf(
+            'Called From: %s:%d %s',
+            $trace[1]['file'],
+            $trace[1]['line'],
+            PHP_EOL
+        );
     }
 }
