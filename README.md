@@ -7,7 +7,7 @@ This package will add the `dd` and `dump` helpers to your Phalcon application.
 Run:
 
 ```bash
-composer require phalcongelist/dd
+composer require phalcon/dd
 ```
 
 ## Copyright
