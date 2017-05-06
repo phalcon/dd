@@ -13,4 +13,6 @@ composer require phalcon/dd
 ## Copyright
 
 This project is open source software licensed under the New BSD License.
-See the LICENSE file for more. © 2016-2017, Phalcon Team
+See the LICENSE file for more.
+
+© 2016-2017, Phalcon Team
