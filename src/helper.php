@@ -1,20 +1,13 @@
 <?php
-/*
- +------------------------------------------------------------------------+
- | dd                                                                     |
- +------------------------------------------------------------------------+
- | Copyright (c) 2016-2017 Phalcon Team (https://www.phalconphp.com)      |
- +------------------------------------------------------------------------+
- | This source file is subject to the New BSD License that is bundled     |
- | with this package in the file LICENSE.txt.                             |
- |                                                                        |
- | If you did not receive a copy of the license and are unable to         |
- | obtain it through the world-wide-web, please send an email             |
- | to license@phalconphp.com so we can send you a copy immediately.       |
- +------------------------------------------------------------------------+
- | Authors: Serghei Iakovlev <serghei@phalconphp.com>                     |
- +------------------------------------------------------------------------+
-*/
+
+/**
+ * This file is part of the Dd package.
+ *
+ * (c) Phalcon Team <team@phalconphp.com>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
 
 use Phalcon\Debug\Dump;
 
