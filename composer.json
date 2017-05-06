@@ -1,12 +1,12 @@
 {
     "name": "phalcon/dd",
     "type": "library",
-    "description": "This package will add the `dd` helper to your Phalcon application.",
+    "description": "This package will add the `dd` and `dump` helpers to your Phalcon application.",
     "keywords": [
         "dd",
+        "dump",
         "phalcon",
         "utils",
-        "dump",
         "debug",
         "vardumper"
     ],
