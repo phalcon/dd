@@ -1,5 +1,5 @@
 {
-    "name": "phalcongelist/dd",
+    "name": "phalcon/dd",
     "type": "library",
     "description": "This package will add the `dd` helper to your Phalcon application.",
     "keywords": [
@@ -7,19 +7,20 @@
         "phalcon",
         "utils",
         "dump",
+        "debug",
         "vardumper"
     ],
-    "homepage": "https://github.com/phalcongelist/dd",
+    "homepage": "https://github.com/phalcong/dd",
     "license": "BSD-3-Clause",
     "authors": [
         {
-            "name": "Serghei Iakovlev",
-            "email": "serghei@phalconphp.com",
-            "role": "developer"
+            "name": "Phalcon Team",
+            "email": "team@phalconphp.com",
+            "homepage": "http://phalconphp.com/en/team"
         },
         {
             "name": "Contributors",
-            "homepage": "https://github.com/phalcongelist/dd/graphs/contributors"
+            "homepage": "https://github.com/phalcon/dd/graphs/contributors"
         }
     ],
     "require": {
@@ -27,10 +28,11 @@
         "ext-phalcon": ">=3.0"
     },
     "support": {
-        "source": "https://github.com/phalcongelist/dd",
-        "issues": "https://github.com/phalcongelist/dd/issues",
-        "wiki":   "https://github.com/phalcongelist/dd/wiki",
-        "forum":  "https://forum.phalconphp.com/"
+        "issues": "https://github.com/phalcon/dd/issues",
+        "source": "https://github.com/phalcon/dd",
+        "forum":  "https://forum.phalconphp.com/",
+        "docs": "https://docs.phalconphp.com/",
+        "rss" : "https://blog.phalconphp.com/rss"
     },
     "autoload": {
         "files": [
