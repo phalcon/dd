@@ -43,3 +43,22 @@ if (!function_exists('dump')) {
         }, func_get_args());
     }
 }
+
+if (!function_exists('ddd')) {
+    /**
+     * Dump the passed variables without end the script.
+     *
+     * @param  mixed
+     * @return void
+     */
+    function ddd()
+    {
+        array_map(function ($x) {
+            $string = (new Dump(null, true))->variable($x);
+
+            echo (PHP_SAPI == 'cli' ? strip_tags($string) . PHP_EOL : $string);
+        }, func_get_args());
+        
+    }
+}
+
