@@ -1,6 +1,6 @@
 # dd
 
-This package will add the `dd` and `dump` helpers to your Phalcon application.
+This library will add the `dd` and `dump` helpers to your Phalcon application.
 
 ## Install
 
@@ -12,7 +12,5 @@ composer require phalcon/dd
 
 ## Copyright
 
-This project is open source software licensed under the New BSD License.
-See the LICENSE file for more.
-
-© 2016-2017, Phalcon Team
+The dd library is open source software licensed under the BSD 3-Clause License. Copyright © 2016-present, Phalcon Team.
+See the [LICENSE.txt](./LICENSE.txt) file for more.
