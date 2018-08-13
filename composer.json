@@ -24,19 +24,19 @@
         }
     ],
     "require": {
-        "php": ">= 5.4  <8.0",
-        "ext-phalcon": ">=3.0"
-    },
-    "support": {
-        "issues": "https://github.com/phalcon/dd/issues",
-        "source": "https://github.com/phalcon/dd",
-        "forum":  "https://forum.phalconphp.com/",
-        "docs": "https://docs.phalconphp.com/",
-        "rss" : "https://blog.phalconphp.com/rss"
+        "php": "^5.4 || ^7.0",
+        "ext-phalcon": "^3.0"
     },
     "autoload": {
         "files": [
             "src/helper.php"
         ]
+    },
+    "support": {
+        "issues": "https://github.com/phalcon/dd/issues",
+        "forum": "https://forum.phalconphp.com/",
+        "source": "https://github.com/phalcon/dd",
+        "docs": "https://docs.phalconphp.com/",
+        "rss": "https://blog.phalconphp.com/rss"
     }
 }
