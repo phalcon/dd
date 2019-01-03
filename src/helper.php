@@ -36,7 +36,7 @@ if (!function_exists('dump')) {
     function dump()
     {
         array_map(function ($x) {
-            $string = (new Dump(null, true))->variable($x);
+            $string = (new Dump([], true))->variable($x);
 
             echo (PHP_SAPI == 'cli' ? strip_tags($string) . PHP_EOL : $string);
 
