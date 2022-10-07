@@ -24,8 +24,8 @@
         }
     ],
     "require": {
-        "php": "^5.4 || ^7.0 || ^8.0",
-        "ext-phalcon": "^3.0 || ^4.0 || 5.0"
+        "php": "^7.4 || ^8.0",
+        "ext-phalcon": "^5.0"
     },
     "autoload": {
         "files": [
