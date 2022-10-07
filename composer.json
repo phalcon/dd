@@ -15,8 +15,8 @@
     "authors": [
         {
             "name": "Phalcon Team",
-            "email": "team@phalconphp.com",
-            "homepage": "http://phalconphp.com/en/team"
+            "email": "team@phalcon.io",
+            "homepage": "http://phalcon.io/en/team"
         },
         {
             "name": "Contributors",
@@ -34,9 +34,9 @@
     },
     "support": {
         "issues": "https://github.com/phalcon/dd/issues",
-        "forum": "https://forum.phalconphp.com/",
+        "forum": "https://forum.phalcon.io/",
         "source": "https://github.com/phalcon/dd",
-        "docs": "https://docs.phalconphp.com/",
-        "rss": "https://blog.phalconphp.com/rss"
+        "docs": "https://docs.phalcon.io/",
+        "rss": "https://blog.phalcon.io/rss"
     }
 }
