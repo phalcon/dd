@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-use Phalcon\Debug\Dump;
+use Phalcon\Support\Debug\Dump;
 
 if (!function_exists('dd')) {
     /**
